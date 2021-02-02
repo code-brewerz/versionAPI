@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json())
 
-DB_CONNECTION = "mongodb+srv://admin-sakha:H0NZviCRhIaG2tph@cluster0.rw3cj.mongodb.net/versions?retryWrites=true&w=majority";
+DB_CONNECTION = "";
 
 mongoose.connect(DB_CONNECTION,{useNewUrlParser:true,useUnifiedTopology: true},(err)=>{
     if(err){
