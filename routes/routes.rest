@@ -1,0 +1,23 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "versionId": 2,
+    "ActiveYN":"N",
+    "versionName":"0.1"
+}
+
+###
+
+
+GET http://localhost:3000/checkdatabaseversion/1
+
+###
+
+GET http://localhost:3000/downloaddatabase/6007244e76636035582a2e88
+
+###
